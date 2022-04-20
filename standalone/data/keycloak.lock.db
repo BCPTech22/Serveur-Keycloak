@@ -1,0 +1,6 @@
+#FileLock
+#Tue Apr 19 14:10:46 WET 2022
+server=192.168.80.1\:57496
+hostName=MSI
+method=file
+id=18042294c5d03fd2949dc983076b21688011da9800c
