@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" class="${properties.kcHtmlClass!}">
 
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="robots" content="noindex, nofollow">
@@ -37,6 +38,7 @@
 </head>
 
 <body class="${properties.kcBodyClass!}">
+TTTTTTTTTTTTTTTTTTTTTTT
 <div class="${properties.kcLoginClass!}">
     <div id="kc-header" class="${properties.kcHeaderClass!}">
         <div id="kc-header-wrapper"

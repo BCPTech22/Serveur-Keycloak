@@ -1,0 +1,51 @@
+2022-04-27 09:14:02,877 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0272: Suspending server
+2022-04-27 09:14:03,626 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2022-04-27 09:14:03,931 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2022-04-27 09:14:05,427 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2022-04-27 09:14:05,446 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/KeycloakDS]
+2022-04-27 09:14:05,555 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTPS listener https suspending
+2022-04-27 09:14:05,557 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2022-04-27 09:14:05,781 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0022: Unregistered web context: '/auth' from server 'default-server'
+2022-04-27 09:14:06,076 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-3) Undeploying Keycloak provider: auth-login-notify-email-extension-1.0.0.0-SNAPSHOT.jar
+2022-04-27 09:14:06,076 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-5) Undeploying Keycloak provider: duospikeycloakbcp-jar-with-dependencies.jar
+2022-04-27 09:14:06,076 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-7) Undeploying Keycloak provider: dasniko.keycloak-magiclink.jar
+2022-04-27 09:14:06,076 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-2) Undeploying Keycloak provider: thirdparty-mfa-auth-extension-1.0.0.0-SNAPSHOT.jar
+2022-04-27 09:14:06,076 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-4) Undeploying Keycloak provider: github-enterprise-identity-provider-1.0.0.0-SNAPSHOT.jar
+2022-04-27 09:14:06,076 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-8) Undeploying Keycloak provider: Authenticator-SPI-1.0-SNAPSHOT.jar
+2022-04-27 09:14:06,076 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-1) Undeploying Keycloak provider: com.keycloak.sms.keycloak-sms-authenticator.jar
+2022-04-27 09:14:06,076 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-6) Undeploying Keycloak provider: authenticator.jar
+2022-04-27 09:14:06,202 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-5) Undeploying Keycloak provider: dasniko.keycloak-requiredaction.jar
+2022-04-27 09:14:06,202 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-6) Undeploying Keycloak provider: recaptcha-login.jar
+2022-04-27 09:14:06,545 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment dasniko.keycloak-requiredaction.jar (runtime-name: dasniko.keycloak-requiredaction.jar) in 2330ms
+2022-04-27 09:14:06,547 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment thirdparty-mfa-auth-extension-1.0.0.0-SNAPSHOT.jar (runtime-name: thirdparty-mfa-auth-extension-1.0.0.0-SNAPSHOT.jar) in 2331ms
+2022-04-27 09:14:06,548 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment duospikeycloakbcp-jar-with-dependencies.jar (runtime-name: duospikeycloakbcp-jar-with-dependencies.jar) in 2411ms
+2022-04-27 09:14:06,649 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment auth-login-notify-email-extension-1.0.0.0-SNAPSHOT.jar (runtime-name: auth-login-notify-email-extension-1.0.0.0-SNAPSHOT.jar) in 2388ms
+2022-04-27 09:14:06,649 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment dasniko.keycloak-magiclink.jar (runtime-name: dasniko.keycloak-magiclink.jar) in 2434ms
+2022-04-27 09:14:06,649 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment Authenticator-SPI-1.0-SNAPSHOT.jar (runtime-name: Authenticator-SPI-1.0-SNAPSHOT.jar) in 2434ms
+2022-04-27 09:14:06,650 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment com.keycloak.sms.keycloak-sms-authenticator.jar (runtime-name: com.keycloak.sms.keycloak-sms-authenticator.jar) in 2366ms
+2022-04-27 09:14:06,650 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment github-enterprise-identity-provider-1.0.0.0-SNAPSHOT.jar (runtime-name: github-enterprise-identity-provider-1.0.0.0-SNAPSHOT.jar) in 2433ms
+2022-04-27 09:14:06,651 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment recaptcha-login.jar (runtime-name: recaptcha-login.jar) in 2368ms
+2022-04-27 09:14:06,651 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment authenticator.jar (runtime-name: authenticator.jar) in 2515ms
+2022-04-27 09:14:06,728 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2022-04-27 09:14:06,731 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2022-04-27 09:14:06,774 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+2022-04-27 09:14:06,794 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment keycloak-server.war (runtime-name: keycloak-server.war) in 2658ms
+2022-04-27 09:14:07,187 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 70) WFLYCLINF0003: Stopped clientSessions cache from keycloak container
+2022-04-27 09:14:07,187 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 77) WFLYCLINF0003: Stopped sessions cache from keycloak container
+2022-04-27 09:14:07,187 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 72) WFLYCLINF0003: Stopped loginFailures cache from keycloak container
+2022-04-27 09:14:07,187 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0003: Stopped work cache from keycloak container
+2022-04-27 09:14:07,187 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 76) WFLYCLINF0003: Stopped offlineSessions cache from keycloak container
+2022-04-27 09:14:07,187 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0003: Stopped authenticationSessions cache from keycloak container
+2022-04-27 09:14:07,188 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 79) WFLYCLINF0003: Stopped actionTokens cache from keycloak container
+2022-04-27 09:14:07,188 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0003: Stopped offlineClientSessions cache from keycloak container
+2022-04-27 09:14:07,220 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 73) WFLYCLINF0003: Stopped keys cache from keycloak container
+2022-04-27 09:14:07,239 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 75) WFLYCLINF0003: Stopped users cache from keycloak container
+2022-04-27 09:14:07,239 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 74) WFLYCLINF0003: Stopped authorization cache from keycloak container
+2022-04-27 09:14:07,241 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 71) WFLYCLINF0003: Stopped realms cache from keycloak container
+2022-04-27 09:14:07,242 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 71) Stopping cache manager null on null
+2022-04-27 09:14:07,393 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTP listener default suspending
+2022-04-27 09:14:07,393 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2022-04-27 09:14:07,396 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 2.2.5.Final stopping
+2022-04-27 09:14:07,607 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 80) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2022-04-27 09:14:07,608 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 80) Stopping cache manager null on null
+2022-04-27 09:14:07,614 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: Keycloak 15.0.2 (WildFly Core 15.0.1.Final) stopped in 3478ms

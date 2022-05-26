@@ -32,6 +32,7 @@
                            aria-invalid="<#if messagesPerField.existsError('username','password')>true</#if>"
                     />
                 </div>
+                
 
                 <div class="${properties.kcFormGroupClass!} ${properties.kcFormSettingClass!}">
                     <div id="kc-form-options">
@@ -54,6 +55,13 @@
                         </div>
 
                   </div>
+                <#if recaptchaRequired??>
+                    <div class="form-group">
+                        <div class="${properties.kcInputWrapperClass!}">
+                            <div class="g-recaptcha" data-size="compact" data-sitekey="${recaptchaSiteKey}"></div>
+                        </div>
+                    </div>
+                </#if>
 
                   <div id="kc-form-buttons" class="${properties.kcFormGroupClass!}">
                       <input type="hidden" id="id-hidden-input" name="credentialId" <#if auth.selectedCredential?has_content>value="${auth.selectedCredential}"</#if>/>
